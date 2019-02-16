@@ -1,3 +1,19 @@
 h1{
-    color: #00badb;
+    font-family: 'Lato-Bold';
+    font-size: 15vw;
+    color: #FFFFFF;
+    letter-spacing: 2pt;
+
+}
+h2{
+    font-family: 'Lato-Regular';
+    font-size: 5vw;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+#first{
+    background-image: linear-gradient(-180deg, #577FFF 0%, #455EB9 100%);
+    height: 70%;
+    text-align: center;
 }

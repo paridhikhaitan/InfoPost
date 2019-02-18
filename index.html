@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
@@ -10,11 +11,21 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     
+    <!--For the favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.png" />
+
+    <!--Main CSS stylesheet-->
     <link rel="stylesheet" href="main.css">
+
+    <!--Animate stylesheets-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+
+
 </head>
 <body>
   <!--Navbar-->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-light navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
 
@@ -46,17 +57,64 @@
         Redefining the news using AI Powered Infographics
     </h2>
   </div>
+
+  <!--About-->
+  <div id="About">
+    <h2 class="animated slideInLeft delay-0.1s" > 
+      About InfoPost
+    </h2>
+    <p>
+      A startup dedicated to solving the modern day problems of fake news, 
+      headline misinformation, and low reading times plaguing the media today. 
+      InfoPost tackles these challenges by adopting cutting-edge AI for Natural
+       Language Understanding, art generation, and human-centered design. 
+      <br>
+      A San Diego, California based startup. This company is trying to redefine 
+      the way people experience their news in our modern world by providing news
+       in beautiful AI generated infographics, which make it easier to read, 
+       understand and digest. 
+      <br>
+      Finally, InfoPost is dedicated currently for financial news, to simplify 
+      the jargon in the media world and make it digestible for the common man. 
+    </p>
+    <br>
+  </div>
   
   <!--Meet the Team-->
   <div id="team">
-
+    <h2>
+      This is supposed to be the scrolly thing for meet the team!
+    </h2>
   <br>
   </div>
 
   <!--Contact-->
   <div id="contact">
-
+    <h2>
+      Look out for more content on the website 
+    </h2>
   <br>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+  </script>
+
+  <script>
+    var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null // optional scroll container selector, otherwise use window
+  }
+);
+wow.init();
+  </script>
 </body>
 </html>

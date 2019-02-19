@@ -20,81 +20,199 @@
     <!--Animate stylesheets-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
+    <title>
+      InfoPost
+    </title>
 
 
 </head>
 <body>
   <!--Navbar-->
-  <nav class="navbar navbar-light navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span> 
-          </button>
-          <a class="navbar-brand" href="#">
-              <img src="images/logo.png" width="40" height="40" alt="InfoPost">
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">About</a></li>
-            <li><a href="#">Meet the Team</a></li> 
-            <li><a href="#">Contact</a></li> 
-          </ul>
-        </div>
-      </div>
-    </nav>
-
+  <!--
+  <div id="navbar">
+      <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span> 
+                  </button>
+                  <a class="navbar-brand" href="#first">InfoPost</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li><a href="#About">About</a></li>
+                  <li><a href="#team">Team</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+                    </div>
+              </div>
+            </nav>
+    </div>        
+-->
   <!--Banner -->
-  <div class= "container-fluid" id = "first">
-    <h1>
+  <div class="container-fluid" id = "first">
+    <div id="nav">
+      <a href="#About">
+        About
+      </a>
+      <a href="#team">
+        Team
+      </a>
+      <a href="#sponsors">
+        Partners
+      </a>
+    </div>
+
+    <h1 class="animated fadeInDown delay-0.2s">
         InfoPost
     </h1>
-    <h2>
+    <h2 class="animated fadeInDown delay-0.2s">
         Redefining the news using AI Powered Infographics
     </h2>
   </div>
 
   <!--About-->
   <div id="About">
-    <h2 class="animated slideInLeft delay-0.1s" > 
-      About InfoPost
+    <div class="container">
+    <h2 class="animated wow fadeInUp delay-0.1s" align="middle" > 
+      About 
     </h2>
     <p>
-      A startup dedicated to solving the modern day problems of fake news, 
+      InfoPost is dedicated to solving the modern day problems of fake news, 
       headline misinformation, and low reading times plaguing the media today. 
-      InfoPost tackles these challenges by adopting cutting-edge AI for Natural
-       Language Understanding, art generation, and human-centered design. 
+      We tackle these challenges by adopting cutting-edge AI for Natural
+       Language Understanding, graphics generation, and human-centered design. 
       <br>
-      A San Diego, California based startup. This company is trying to redefine 
-      the way people experience their news in our modern world by providing news
-       in beautiful AI generated infographics, which make it easier to read, 
-       understand and digest. 
       <br>
-      Finally, InfoPost is dedicated currently for financial news, to simplify 
-      the jargon in the media world and make it digestible for the common man. 
+      A San Diego, California based startup, InfoPost changes the way people
+      experience the news by giving credibility scores and AI generated infographics
+      which increases the clarity and transparency of the news.
+      <br>
+      <br>
+      Finally, InfoPost also provides corporate solutions by providing reliable credibility
+      checks using Advanced AI and on-demand infographics for any purposes. It has applications
+      for education, social media, politics, government and more. 
     </p>
+    <br>
+    </div>
     <br>
   </div>
   
   <!--Meet the Team-->
   <div id="team">
-    <h2>
-      This is supposed to be the scrolly thing for meet the team!
-    </h2>
+    <div class="container imgsize">
+      <h2 class="animated wow fadeInUp delay-0.1s" align="middle">
+      Meet the Team!
+      </h2>
+      <br>
+      <div id="dev" align="middle">
+        <img src="images/devweb.jpg" alt="Dev Sharma" class="animated wow zoomIn" >
+        <h3>
+          Dev Sharma
+        </h3>
+        <p>
+          Founder
+        </p>
+      </div>
+      <br>
+      <div id="han" align="middle" >
+        <img src="images/hanliweb.jpg" alt="Han Li" class="animated wow zoomIn" >
+        <h3>
+          Han Li
+        </h3>
+        <p>
+          AI
+        </p>
+      </div>
+      <div id="d" align="middle">
+        <img src="images/hanliweb.jpg" alt="Han Li" class="animated wow zoomIn" >
+        <h3>
+            Han Li
+          </h3>
+          <p>
+            App Developer
+          </p>
+      </div>
+      <br>
+      <div id="howard" align="middle">
+        <img src="images/howardweb.jpg" alt="Howard Lin" class="animated wow zoomIn">
+        <h3>
+            Howard Lin
+          </h3>
+          <p>
+            Web Developer
+          </p>
+      </div>
+      <div id="paridhi" align="middle">
+        <img src="images/hanliweb.jpg" alt="Han Li" class="animated wow zoomIn" >
+        <h3>
+            Paridhi Khaitan
+          </h3>
+          <p>
+            Web Developer
+          </p>
+      </div>
+      <br>
+      <div id="racquel" align="middle">
+        <img src="images/racquelweb.jpg" alt="Racquel Addessi" class="animated wow zoomIn">
+        <h3>
+            Racquel Addessi
+          </h3>
+          <p>
+            UI/UX Designer
+          </p>
+      </div>
+      <div id="april" align="middle">
+        <img src="images/aprilweb.jpg" alt="April Gau" class="animated wow zoomIn" >
+        <h3>
+            April Gau
+          </h3>
+          <p>
+            UI/UX Designer
+          </p>
+      </div>
   <br>
+  <br>
+    </div>
+  </div>
+
+  <!--sponsors-->
+  <div id="sponsors">
+    <div class="container" align="middle">
+      <h2 class="animated wow fadeInUp delay-0.1s" align="middle">
+        Partners
+      </h2>
+      <br>
+      <br>
+      <img id="basement" src="images/basement.jpeg" alt="Basement@UCSD" class="animated wow zoomIn">
+      <img id="startr" src="images/startr.jpg" alt="StartR@UCSD" class="animated wow zoomIn">
+    </div>
+    <br>
   </div>
 
   <!--Contact-->
   <div id="contact">
+    <div class="container">
     <h2>
-      Look out for more content on the website 
+      Contact
     </h2>
+    <p>
+      Connect with us to find credibility and graphic solutions for your business. 
+    </p>
+    <br>
+    <br>
+    <p> 
+      Contact us at <a href="#"> connect@theinfopost </a>
+    </p>
+    </div>
   <br>
   </div>
+
+  <footer align="middle">
+    Site designed and maintained by InfoPost © 2019
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
   </script>

@@ -7,11 +7,11 @@ body{
 body, html {
     height: 100%;
     margin: 0;
-  }
-  
+}
+
 #first {
     /* The image used */
-    background-image: linear-gradient(-180deg, #577FFF 0%, #455EB9 100%);
+    background-image: url(images/Background.png);
   
     /* Full height */
     height: 100%; 
@@ -43,11 +43,24 @@ h1{
     vertical-align: middle;
 }
 /*
+#nav{
+    float: right;
+    padding-right: 5%;
+    padding-top: 2%;
+}*/
+ 
+/*
 #first{
     background-image: linear-gradient(-180deg, #577FFF 0%, #455EB9 100%);
     height: 720px;
     text-align: center;
 }*/
+
+#nav{
+    float: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
 
 #About p{
     font-size: 17px;
@@ -83,11 +96,34 @@ h1{
         max-width: 800px;
     }
 
+
+    .grid-layout{
+    padding-right: 5vw;
+    padding-left: 5vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    }
+
+    #phone{
+        float: right;
+    }
+
+    #phone img{
+        height: 40vw;
+        width: auto;
+    }
+
+    #temp br{
+        clear: both;
+    }
+
     #team div img {
         width: 100%;
         margin: 1%;
         box-sizing: border-box;
     }
+
 
     #han{
         float: left;
@@ -131,19 +167,22 @@ h1{
 
 }
 
+#team p{
+    font-size: 20px;
+}
+
 #startr{
-    width: 350px;
+    width: 250px;
     height: auto;
     max-width: 400px;
 }
 
 .imgsize img{
-    padding: 8px;
-    align-items: center;
-    height: 250px;
+    height: 200px;
     width: auto;
-    max-width: 250px;
+    max-width: 200px;
 }
+
 
 footer{
     background: #282828;

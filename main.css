@@ -23,8 +23,13 @@ body {
 }
 
 
-#first a{
+#nav a{
     color: #FFFFFF;
+}
+#nav{
+    float: right;
+    padding-right: 5%;
+    padding-top: 2%;
 }
 
 h1{
@@ -35,7 +40,7 @@ h1{
     letter-spacing: 2pt;
 }
 
-#first h2{
+h2{
     font-family: 'Lato';
     font-size: 3vw;
     color: #FFFFFF;
@@ -44,11 +49,7 @@ h1{
     vertical-align: middle;
 }
 
-#nav{
-    float: right;
-    padding-right: 5%;
-    padding-top: 2%;
-}
+
  
 /*
 #first{
@@ -111,10 +112,16 @@ h1{
     grid-template-rows: auto auto auto;
     }
 
+    #nav{
+        clear: both;
+    }
+
   /*  #phone {
         float: right;
         padding-right: 10vw;
     } */
+
+    /*
     #phone img{
         position: relative;
         float: right;
@@ -123,7 +130,24 @@ h1{
         margin-top: 4vw;
         height: 50vw;
         width: auto;
-    } 
+    } */
+
+    #mainhead{
+        width: 60%;
+        height: auto;
+        float: left;
+    }
+
+    #phone{
+        width: 40%;
+        align-content: center;
+        float: right;
+    }
+
+    #banner br{
+        clear: both;
+    }
+
 
     #placeholder{
         height: 40vh;

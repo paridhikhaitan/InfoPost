@@ -65,8 +65,8 @@ h2{
 }
 
 #nav #heading{
-    padding-left: 2vw;
-    font-size: 3vw;
+    padding-left: 3vw;
+    font-size: 4.5vw;
     float: left;
 }
 
@@ -87,6 +87,8 @@ h2{
 }
 
 #About p{
+    margin-left: 1vw;
+    margin-right: 1vw;
     font-size: 20px;
 }
 
@@ -152,8 +154,8 @@ h2{
 
     #mainhead{
         padding-left: 8vw;
-        padding-top: 2vw;
-        width: 55%;
+        padding-top: 3vw;
+        width: 50%;
         height: auto;
         align-content: center;
         float: left;

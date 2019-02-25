@@ -56,22 +56,11 @@ h2{
 #nav{
     padding-right: 6vw;
     padding-top: 2vw;
+    align-self: center;
 }
 
 #nav #bar{
-    padding-top: 2vw;
-    float: right;
     display: none;
-}
-
-#nav #heading{
-    padding-left: 3vw;
-    font-size: 3.5vw;
-    float: left;
-}
-
-#nav br{
-    clear: both;
 }
 
 #nav a{
@@ -156,10 +145,23 @@ h2{
         float: left;
     }
 
+
     #nav #bar{
+        padding-top: 2vw;
+        float: right;
         display: block;
     }
 
+    #nav #heading{
+        padding-left: 3vw;
+        font-size: 30px;
+        max-width: 100px;;
+        float: left;
+    }
+
+    #nav br{
+        clear: both;
+    }
 
     #phone img{
         height: 600px;

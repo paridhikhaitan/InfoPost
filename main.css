@@ -40,7 +40,7 @@ body, html {
 #mainhead img{
     height: 150px;
     width: auto;
-    max-width: 200;
+    max-width: 200px;
 }
 
 
@@ -97,6 +97,8 @@ h2{
 
 #team img{
     border-radius: 125px;
+    height: auto;
+    width: auto;
 }
 
 #contact {
@@ -223,7 +225,7 @@ h2{
 
     #basement{
         float: left;
-        width: 250px;
+        width: 500px;
         height: auto;
         align-content: center;
     }
@@ -236,13 +238,19 @@ h2{
     }
 
 }
-
 #team p{
     font-size: 20px;
 }
 
+#basement{
+    padding-top: 3vw;
+    min-width: 250px;
+    height: auto;
+}
+
 #startr{
-    width: 250px;
+    padding-top: 2vw;
+    width: 200px;
     height: auto;
     max-width: 400px;
 }

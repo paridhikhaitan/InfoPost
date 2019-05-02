@@ -75,6 +75,10 @@ h2{
     display: none;
 }
 
+#About{
+    margin-top: 2vw;
+}
+
 #About p{
     margin-left: 1vw;
     margin-right: 1vw;
@@ -130,8 +134,10 @@ h2{
     padding-right: 5vw;
     padding-left: 5vw;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto;
+    column-gap: 3vw;
+    row-gap: 2vw;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto;
     }
 
     #banner{
